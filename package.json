@@ -1,0 +1,49 @@
+{
+  "name": "motion-lab",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "tunnel": "expo start --tunnel",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "doctor": "expo-doctor",
+    "lint": "expo lint"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-segmented-control/segmented-control": "2.5.7",
+    "@shopify/react-native-skia": "2.14.0",
+    "expo": "~58.0.21",
+    "expo-asset": "~58.0.19",
+    "expo-blur": "~58.0.5",
+    "expo-constants": "~58.0.14",
+    "expo-font": "~58.0.11",
+    "expo-glass-effect": "~58.0.5",
+    "expo-haptics": "~58.0.7",
+    "expo-linking": "~58.0.15",
+    "expo-router": "~58.0.28",
+    "expo-splash-screen": "~58.0.12",
+    "expo-status-bar": "~58.0.4",
+    "expo-system-ui": "~58.0.7",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-keyboard-controller": "1.22.7",
+    "react-native-reanimated": "4.7.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-worklets": "0.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "^58.0.4",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}

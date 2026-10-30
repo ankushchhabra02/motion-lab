@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Motion Lab",
+    "slug": "motion-lab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "motionlab",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.motionlab.app",
+      "icon": {
+        "light": "./assets/icon.png",
+        "dark": "./assets/icon-dark.png",
+        "tinted": "./assets/icon-tinted.png"
+      }
+    },
+    "android": {
+      "package": "com.motionlab.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0C0C11",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "resizeMode": "contain",
+          "backgroundColor": "#F4F4F8",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#0C0C11"
+          }
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
